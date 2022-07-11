@@ -1,5 +1,36 @@
 *{
     margin: 0;
     padding: 0;
-    
+
+}
+body{
+    text-align: center;
+}
+
+nav{
+    padding: 24px 24px;
+    background-color: #008080;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+.intro{
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+}
+img{
+    width: 100%;
+}
+h2{
+    padding-bottom: 24px;
 }
